@@ -1,7 +1,7 @@
 <script lang="ts">
-	import type { Item } from '$services/types';
 	import Card from '$lib/components/card.svelte';
 	import Carousel from '$lib/components/carousel.svelte';
+	import type { Item } from '$services/types';
 
 	export let endingSoonest: Item[] = [];
 	export let mostViews: Item[] = [];
